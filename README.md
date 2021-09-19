@@ -35,10 +35,9 @@ if inner callback function trigger by the dispatch returns another function!!,
 the `thunk` automatically intercept the process      
 rather than let it have the action object as a return value to the reducer.    
 
-The `thunk` intercept return function defined in the getData(),    
-`dispatch(getData())`   
-`getData()` : supposed to return action obj       
-but it returns function so the thunk middleware get it to handle    
+Somepoint we set this code `dispatch(getData())`     
+Here this `getData()`  supposed to return action object         
+but it actually returns function so the thunk middleware get it to handle    
 and it also puts the dispatch into a parameter of that intercepted function    
 
 Thereby, we can have another process to handle before we make the action object  
