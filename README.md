@@ -51,7 +51,7 @@ For more detail,
 Getting the data from the fetch API,   
 we need to notice that the data is available or not    
 Or we want to know that the async work is all completed or not.    
-(No matter with Success or fail response, Just to find out the async work in a simple order)  
+(No matter with Success or fail response, Just to find out the async work is done or not)    
 
 In the process that we earn from the thunk, we can find out the problem above  
 `isLoading` is one of the property of the store that I desgined     
