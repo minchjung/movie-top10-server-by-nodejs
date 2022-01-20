@@ -1,5 +1,5 @@
-# react-redux 
-### Source Tree
+# Simple Web Application of Client/Server Model
+
 ```js
 -src/
 --actions/
